@@ -6,7 +6,11 @@ export function Navbar() {
     >
       <div className="max-w-[960px] mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-3">
+        <a
+          href="https://metadata.cool/"
+          className="flex items-center gap-3"
+          style={{ textDecoration: "none" }}
+        >
           <div
             className="w-5 h-5 grid grid-cols-2 gap-0.5"
             aria-hidden="true"
@@ -19,7 +23,7 @@ export function Navbar() {
           <span className="text-white text-sm font-bold tracking-widest uppercase">
             Metadata.COOL
           </span>
-        </div>
+        </a>
       </div>
     </nav>
   );
