@@ -32,15 +32,16 @@ export function FFprobeApp() {
       <main className="max-w-[960px] mx-auto px-6 py-12">
         {/* Hero */}
         <div className="mb-10">
-          <h1 className="text-3xl font-bold tracking-tight mb-3">
+          <h1 className="text-3xl font-bold tracking-tight mb-2">
             Inspect video metadata{" "}
             <span style={{ color: "#00D692" }}>instantly.</span>
           </h1>
-          <p className="text-sm" style={{ color: "#999999" }}>
-            Analyze any video or audio file by URL or local upload.
-            Processing happens in your browser via WebAssembly — nothing is sent
-            to a server.
-          </p>
+          <h2 className="text-base font-normal" style={{ color: "#999999" }}>
+            Enjoy a{" "}
+            <span style={{ color: "#00D692" }}>COOL</span>{" "}
+            tool to quickly analyze video metadata.
+            <br />You can upload a file or provide a video URL.
+          </h2>
         </div>
 
         {/* Input card */}
@@ -143,7 +144,7 @@ export function FFprobeApp() {
         className="mt-20 py-8 text-center text-xs"
         style={{ borderTop: "1px solid #333333", color: "#999999" }}
       >
-        FFprobe Online · Powered by{" "}
+        Metadata.COOL · Made with ❤️ by the team behind{" "}
         <a
           href="https://chunkify.dev"
           target="_blank"
@@ -152,8 +153,7 @@ export function FFprobeApp() {
           style={{ color: "#00D692" }}
         >
           Chunkify
-        </a>{" "}
-        · Processing is 100% local
+        </a>
       </footer>
     </div>
   );

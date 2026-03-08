@@ -8,9 +8,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FFprobe Online — Inspect Video Metadata Instantly",
+  title: "Metadata.COOL — Analyze Video & Audio Metadata Instantly",
   description:
-    "Free browser-based FFprobe tool. Analyze video metadata by URL or file upload. No upload to server — processing happens locally via WebAssembly.",
+    "Free browser-based tool to analyze metadata from any video or audio file by URL or local upload. Powered by WebAssembly.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
