@@ -153,7 +153,7 @@ export function FFprobeApp() {
           style={{ color: "#00D692" }}
         >
           Chunkify
-        </a>
+        </a>{" "}· 2026
       </footer>
     </div>
   );
