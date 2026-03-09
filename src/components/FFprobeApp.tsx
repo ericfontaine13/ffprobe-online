@@ -147,7 +147,7 @@ export function FFprobeApp() {
       >
         Metadata.COOL · Made with ❤️ by the team behind{" "}
       <a
-        href="https://chunkify.dev?utm_source=metadata.cool&utm_medium=referral&utm_campaign=chunkify_verse_app&utm_content=metadata.cool_link_footer"
+        href="https://chunkify.dev"
         target="_blank"
         rel="noopener"
         className="transition-colors"
