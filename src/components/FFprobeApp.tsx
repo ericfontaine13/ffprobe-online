@@ -41,6 +41,7 @@ export function FFprobeApp() {
             <span style={{ color: "#00D692" }}>COOL</span>{" "}
             tool to quickly analyze video metadata.
             <br />You can upload a file or provide a video URL.
+            <br />Useful when debugging encoding pipelines, validating incoming files, or just understanding what’s inside a video.
           </h2>
         </div>
 
