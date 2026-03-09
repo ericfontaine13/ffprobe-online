@@ -149,7 +149,7 @@ export function FFprobeApp() {
         <a
           href="https://chunkify.dev"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener"
           className="transition-colors"
           style={{ color: "#00D692" }}
         >
