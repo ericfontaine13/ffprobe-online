@@ -21,7 +21,7 @@ export function Navbar() {
             <div className="bg-accent rounded-sm" />
           </div>
           <span className="text-white text-sm font-bold tracking-widest uppercase">
-            Metadata.COOL
+            METADATA<span style={{ color: "#00D692" }}>.COOL</span>
           </span>
         </a>
       </div>
