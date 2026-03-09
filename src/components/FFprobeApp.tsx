@@ -146,15 +146,15 @@ export function FFprobeApp() {
         style={{ borderTop: "1px solid #333333", color: "#999999" }}
       >
         Metadata.COOL · Made with ❤️ by the team behind{" "}
-        <a
-          href="https://chunkify.dev"
-          target="_blank"
-          rel="noopener"
-          className="transition-colors"
-          style={{ color: "#00D692" }}
-        >
-          Chunkify
-        </a>{" "}· 2026
+      <a
+        href="https://chunkify.dev?utm_source=metadata.cool&utm_medium=referral&utm_campaign=chunkify_verse_app&utm_content=metadata.cool_link_footer"
+        target="_blank"
+        rel="noopener"
+        className="transition-colors"
+        style={{ color: "#00D692" }}
+      >
+        Chunkify
+      </a>{" "}· 2026
       </footer>
     </div>
   );
