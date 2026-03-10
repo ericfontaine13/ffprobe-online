@@ -33,15 +33,15 @@ export function FFprobeApp() {
         {/* Hero */}
         <div className="mb-10">
           <h1 className="text-3xl font-bold tracking-tight mb-2">
-            Inspect video metadata{" "}
+            Inspect video and audio metadata{" "}
             <span style={{ color: "#00D692" }}>instantly.</span>
           </h1>
           <h2 className="text-base font-normal" style={{ color: "#999999" }}>
             Enjoy a{" "}
             <span style={{ color: "#00D692" }}>COOL</span>{" "}
-            tool to quickly analyze video metadata.
+            tool to analyze metadata quickly and easily.
             <br />You can upload a file or provide a video URL.
-            <br />Useful when debugging encoding pipelines, validating incoming files, or just understanding what’s inside a video.
+            <br />Handy when you need to inspect a video, validate incoming files, or troubleshoot an encoding pipeline.
           </h2>
         </div>
 
@@ -145,7 +145,7 @@ export function FFprobeApp() {
         className="mt-20 py-8 text-center text-xs"
         style={{ borderTop: "1px solid #333333", color: "#999999" }}
       >
-        Metadata.COOL · Made with ❤️ by the team behind{" "}
+        metadata.COOL · Made with ❤️ by the team behind{" "}
       <a
         href="https://chunkify.dev"
         target="_blank"
